@@ -13,26 +13,31 @@ Esta app utiliza Supabase, permitiendo que los usuarios se autentiquen por medio
 
 ## 📷Capturas de pantalla
  - Página de autenticación
+
 ![_](./src/assets/imgs/auth1.png)
 ![_](./src/assets/imgs/authCredenciales.png)
 
 
 
  - Chat cuando el usuario ha iniciado sesión
+
 ![_](./src/assets/imgs/chat.png )
 
 
  - Prueba de uso del chat
+
 ![_](./src/assets/imgs/chat2.png )
 
 
  - Cierre de sesión
+
 ![_](./src/assets/imgs/cierreSesion.png )
 ![_](./src/assets/imgs/redirigeAuth.png )
 
 
 
  - Intento de acceso al Chat sin iniciar sesión
+ 
 ![_](./src/assets/imgs/redirigeAuth.png )
 
 
