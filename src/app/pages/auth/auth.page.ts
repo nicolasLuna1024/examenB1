@@ -59,6 +59,21 @@ export class AuthPage {
 
 
 
+  async logout() 
+  {
+    const { error } = await supabase.auth.signOut();
+
+    if (error) 
+    {
+      this.error = error.message;
+    } 
+    else 
+    {
+      this.router.navigate(['/auth']);
+    }
+  }
+
+
 
 
 

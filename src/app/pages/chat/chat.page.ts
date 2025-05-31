@@ -29,6 +29,12 @@ export class ChatPage implements OnInit {
     this.chatService.fetchMessages(); // Carga mensajes al iniciar
   }
 
+  async logout() 
+  {  
+    this.authService.logout();
+
+  }
+
   async send() {
     const user = await this.authService.getCurrentUser();
 
