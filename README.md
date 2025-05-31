@@ -1,6 +1,6 @@
 # Estudiantes: Nicolás Luna, Angel Maldonado
 
-# Rick and Morty Characters - App
+# Auth y Chat con Supabase - App
 
 Aplicación móvil desarrollada con **Angular** e **Ionic**, que permite autenticarse y utilizar un chat compartido en **Supabase**.
 
