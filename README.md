@@ -34,6 +34,7 @@ Esta app utiliza Supabase, permitiendo que los usuarios se autentiquen por medio
  - Cierre de sesión
 
 ![_](./src/assets/imgs/cerrarSesionBoton.png )
+
 ![_](./src/assets/imgs/cierreSesion.png )
 
 
