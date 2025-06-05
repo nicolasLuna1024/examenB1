@@ -23,7 +23,11 @@ export const routes: Routes = [
     path: 'chat',
     loadComponent: () => import('./pages/chat/chat.page').then( m => m.ChatPage),
     canActivate: [authGuardGuard]
+  },  {
+    path: 'create-news',
+    loadComponent: () => import('./pages/create-news/create-news.page').then( m => m.CreateNewsPage)
   },
+
 ];
 
 
